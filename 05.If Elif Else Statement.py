@@ -48,7 +48,25 @@ print(3>2 and 3==2)
 # print(msg)
 
 #3
-age=12
-msg="Eligible"if age>=18 else "not Eligible"
-print(msg)
+# age=12
+# msg="Eligible"if age>=18 else "not Eligible"
+# print(msg)
 
+
+# highest_income=True
+# Student=True
+# Good_credit=True
+#
+# if (highest_income or Good_credit)and Student:
+#     print("Eligible")
+# else:
+#     print("Not eligible")
+#
+
+age=25
+if 20<=age<=65:
+    print("Eligible")
+elif age==10:
+    print("He is a student")
+else:
+    print("Not eliginble")
