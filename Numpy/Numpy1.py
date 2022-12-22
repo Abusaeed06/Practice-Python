@@ -75,3 +75,12 @@ print(arr5)
 arr6=np.arange(5,15,3)
 print(arr6)
 
+my_arr=np.arange(15)
+print(my_arr)
+my_list=list(range(15))
+print(my_list)
+
+a=np.array([[1,2],[3,4],[5,6],[7,8],[9,10]])
+print(a)
+print(a.shape)
+print(a.ndim )
