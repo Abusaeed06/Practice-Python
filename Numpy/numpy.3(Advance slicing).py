@@ -43,3 +43,33 @@ print(array_b.sum(axis=0)) ## axis 0 indiicate column
 
 print(array_b.cumsum())
 print(array_b.prod())
+
+###################
+print(array_b.cumprod())
+print(array_b)
+print(array_c)
+
+n1=np.array([[2,2],[4,6]])
+n2=np.array([[3,4],[5,6]])
+print(n1)
+print(n2)
+## sum,subs,multi,divided of vector
+
+x=n1+n2
+print(x)
+print(n2-n1)
+print(n1/n2)
+
+### dot vector
+print(np.dot(n1,n2))
+
+### ptp = pic(upper) to pic(lower)
+print(n1)
+print(n1.ptp())
+print(array_a.mean())
+print(n1.max())
+print(n1.std())
+
+
+
+
